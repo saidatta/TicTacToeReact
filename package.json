@@ -1,0 +1,30 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Simple Tic Tac Toe game",
+  "main": "index.js",
+  "scripts": {
+      "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+      "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+      "test:watch": "npm run test -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "latest",
+    "lodash": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest",
+    "redux": "latest",
+    "youtube-api-search": "latest"
+  }
+}
